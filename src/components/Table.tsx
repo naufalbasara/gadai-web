@@ -39,26 +39,6 @@ export default function BasicTable() {
                 <TableCell align="center">V</TableCell>
                 <TableCell align="left">BPKB</TableCell>
             </TableRow>
-            <TableRow>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="left">Cek Unit</TableCell>
-            </TableRow>
-            <TableRow>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="left">Foto PBB / Token</TableCell>
-            </TableRow>
-            <TableRow>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="left">Rek Bank untuk Terima Hasil Pengujian</TableCell>
-            </TableRow>
-            <TableRow>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="center">-</TableCell>
-                <TableCell align="left">NPWP</TableCell>
-            </TableRow>
         </TableBody>
       </Table>
     </TableContainer>

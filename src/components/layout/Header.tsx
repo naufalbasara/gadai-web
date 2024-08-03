@@ -22,7 +22,6 @@ export default function Header() {
     { href: '/', label: 'Home' },
     { href: '/produk', label: 'Produk & Layanan' },
     { href: '/about', label: 'About Us' },
-    { href: '/privacy', label: 'Privacy Policy' },
   ];
  
   const navList = (
@@ -44,14 +43,14 @@ export default function Header() {
   );
  
   return (
-    <Navbar className="fixed bg-[#23549a] top-0 m-0 z-10 h-max max-w-full text-black rounded-none px-4 py-2 lg:px-8 lg:py-4">
+    <Navbar className="border-none fixed bg-[#23549a] top-0 m-0 z-10 h-max max-w-full text-black rounded-none px-4 py-2 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
             href="#"
             className="mr-4 cursor-pointer py-1.5 font-medium text-2xl text-white"
           >
-            SOLUSI BPKB USAHA
+            GADAI BPKB NASIONAL
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
