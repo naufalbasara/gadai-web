@@ -189,7 +189,7 @@ export default function HomePage() {
             {/* cara pengajuan section */}
             <section id='pengajuan' className='border border-1 w-full p-10 my-10'>
               <h2 className='mb-10 text-[#23549a]'>Cara Pengajuan</h2>
-              <div className='flex justify-evenly'>
+              <div className='flex flex-col items-center sm:flex sm:flex-row sm:justify-evenly'>
                 <div className='w-80 m-2 border border-1'>
                   <div className='bg-black p-4 text-white text-center'>Image</div>
                   <div className='my-6'>

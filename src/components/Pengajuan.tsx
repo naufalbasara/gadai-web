@@ -24,7 +24,7 @@ export default function PengajuanForm() {
               })}
             >
               <h2 className='mb-10 text-[#23549a]'>Pengajuan BPKB</h2>
-              <div className='mx-auto grid grid-cols-3 gap-4'>
+              <div className='mx-auto sm:grid sm:grid-cols-3 gap-4'>
                 <div className='text-start'>
                   <label className='text-sm font-medium leading-6 text-gray-900'>
                     Nama Lengkap
