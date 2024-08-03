@@ -190,33 +190,33 @@ export default function HomePage() {
             <section id='pengajuan' className='border border-1 w-full p-10 my-10'>
               <h2 className='mb-10 text-[#23549a]'>Cara Pengajuan</h2>
               <div className='flex flex-col items-center sm:flex sm:flex-row sm:justify-evenly'>
-                <div className='w-80 m-2 border border-1'>
+                <div className='w-64 m-2 border border-1'>
                   <div className='bg-black p-4 text-white text-center'>Image</div>
-                  <div className='my-6'>
+                  <div className='my-6 p-4 h-32 sm:h-48'>
                     <h4>1. Isi Formulir</h4>
                     <p>Isi form dan lengkapi data diri untuk Pengajuan dapat diverifikasi</p>
                   </div>
                 </div>
 
-                <div className='w-80 m-2 border border-1'>
+                <div className='w-64 m-2 border border-1'>
                   <div className='bg-black p-4 text-white text-center'>Image</div>
-                  <div className='my-6'>
+                  <div className='my-6 p-4 h-32 sm:h-48'>
                     <h4>2. Verifikasi</h4>
                     <p>Setelah data terisi lengkap, Anda akan dihubungi Call Center kami</p>
                   </div>
                 </div>
 
-                <div className='w-80 m-2 border border-1'>
+                <div className='w-64 m-2 border border-1'>
                   <div className='bg-black p-4 text-white text-center'>Image</div>
-                  <div className='my-6'>
+                  <div className='my-6 p-4 h-32 sm:h-48'>
                   <h4>3. Peninjauan</h4>
                   <p>Tim BPKB Auto akan melakukan Survey peninjauan untuk proses selanjutnya</p>
                   </div>
                 </div>
 
-                <div className='w-80 m-2 border border-1'>
+                <div className='w-64 m-2 border border-1'>
                   <div className='bg-black p-4 text-white text-center'>Image</div>
-                  <div className='my-6'>
+                  <div className='my-6 p-4 h-32 sm:h-48'>
                     <h4>4. Acc Pengajuan</h4>
                     <p>Pengajuan akan dicairkan ke rekening nasabah terdaftar</p>
                   </div>
