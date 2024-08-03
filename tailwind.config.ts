@@ -8,6 +8,9 @@ export default {
       fontFamily: {
         primary: ['Inter', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        'jumbotron': "url('/images/jumbotron.png')",
+      },
       colors: {
         primary: {
           // Customize it on globals.css :root

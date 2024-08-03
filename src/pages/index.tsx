@@ -23,14 +23,15 @@ export default function HomePage() {
         <section className='bg-white'>
           <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
             {/* jumbotron section */}
-            <section id='jumbotron' className='bg-black min-h-screen w-screen p-10 mb-10'>
-            <p className='text-white text-center'>Gambar di sini...</p>
+            <section id='jumbotron' className='bg-center bg-cover bg-scroll bg-no-repeat bg-jumbotron md:h-screen w-screen p-10 mb-10 bg-gray-300 bg-blend-multiply'>
+              <h1 className='md:mt-8 text-white text-4xl sm:text-6xl md:text-8xl my-10'>Jaminkan BPKB<br/>Kendaraan Anda</h1>
+              <a target='_blank' href='https://wa.me/+6281310911206?text=Halo%20Gadai%20BPKB%20Nasional,%20saya%20ingin%20mengajukan%20dana' className='p-4 sm:w-32 text-lg sm:text-2xl md:text-4xl bg-white justify-center rounded rounded-xl border border-1 shadow-sm hover:bg-gray-300 active:bg-gray-400 text-[#23549A] font-bold'>Ajukan Sekarang</a>
             </section>
             
             {/* layanan section */}
             <section id='layanan' className='border border-1 w-full my-10'>
               <h2 className='mb-10 text-[#23549a]'>Layanan Kami</h2>
-              <div className='flex flex-col justify-evenly items-center sm:flex sm:flex-row sm:justify-evenly'>
+              <div className='flex flex-col justify-evenly items-center md:flex md:flex-row md:justify-evenly'>
                 <Card>
                   <h4 className='text-[#23549a]'>BPKB Mobil</h4>
                   <div className='my-10'>
