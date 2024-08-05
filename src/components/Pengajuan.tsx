@@ -143,7 +143,7 @@ export default function PengajuanForm() {
                 className='my-8 block w-full rounded-xl bg-[#23549a] p-2 text-center'
                 type='submit'
               >
-                Submit
+                Kirim WA
               </Button>
   </form>
 }
