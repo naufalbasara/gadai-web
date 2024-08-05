@@ -47,11 +47,11 @@ export default function PrivacyPolicy() {
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Jangka waktu</TableCell>
-                              <TableCell align="left"><b>6-48 bulan</b></TableCell>
+                              <TableCell align="left"><b>11-48 bulan</b></TableCell>
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Minimal tahun kendaraan</TableCell>
-                              <TableCell align="left"><b>2008</b></TableCell>
+                              <TableCell align="left"><b>2004</b></TableCell>
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Proses</TableCell>
@@ -98,11 +98,11 @@ export default function PrivacyPolicy() {
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Jangka waktu</TableCell>
-                              <TableCell align="left"><b>6-48 bulan</b></TableCell>
+                              <TableCell align="left"><b>11-48 bulan</b></TableCell>
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Minimal tahun kendaraan</TableCell>
-                              <TableCell align="left"><b>2013</b></TableCell>
+                              <TableCell align="left"><b>1993</b></TableCell>
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Proses</TableCell>
@@ -149,7 +149,7 @@ export default function PrivacyPolicy() {
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Jangka waktu</TableCell>
-                              <TableCell align="left"><b>6-24 bulan</b></TableCell>
+                              <TableCell align="left"><b>11-48 bulan</b></TableCell>
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Minimal tahun kendaraan</TableCell>
