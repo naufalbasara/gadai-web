@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
         <main>
         <section className='bg-white'>
           <div className='layout flex min-h-screen flex-col items-center justify-center py-12 text-center'>
-          <section id='layanan' className='border border-1 w-full my-10'>
+          <section id='layanan' className=' w-full my-10'>
               <h2 className='mb-10 text-[#23549a]'>Layanan Kami</h2>
               <div className='flex flex-col justify-evenly items-center sm:flex sm:flex-row sm:justify-evenly'>
                 <Card>
@@ -178,7 +178,7 @@ export default function PrivacyPolicy() {
             </section>
 
             {/* kelengkapan dokumen section */}
-            <section id='kelengkapan_dokumen' className='border border-1 w-full p-10 my-10'>
+            <section id='kelengkapan_dokumen' className=' w-full p-10 my-10'>
               <h2 className='mb-10 text-[#23549a]'>Kelengkapan Dokumen</h2>
               <BasicTable/>
             </section>

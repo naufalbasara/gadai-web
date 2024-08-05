@@ -29,11 +29,11 @@ export default function HomePage() {
             </section>
             
             {/* layanan section */}
-            <section id='layanan' className='border border-1 w-full my-10'>
+            <section id='layanan' className='w-full my-10'>
               <h2 className='mb-10 text-[#23549a]'>Layanan Kami</h2>
               <div className='flex flex-col justify-evenly items-center md:flex md:flex-row md:justify-evenly'>
                 <Card>
-                  <h4 className='text-[#23549a]'>BPKB Mobil</h4>
+                  <h3 className='text-[#23549a]'>BPKB Mobil</h3>
                   <div className='my-10'>
                   <NextImage 
                   useSkeleton
@@ -84,7 +84,7 @@ export default function HomePage() {
                 </Card>
 
                 <Card>
-                  <h4 className='text-[#23549a]'>BPKB Truck / Pickup</h4>
+                  <h3 className='text-[#23549a]'>BPKB Truck / Pickup</h3>
                   <div className='my-10'>
                   <NextImage 
                   useSkeleton
@@ -135,7 +135,7 @@ export default function HomePage() {
                 </Card>
 
                 <Card>
-                  <h4 className='text-[#23549a]'>BPKB Motor</h4>
+                  <h3 className='text-[#23549a]'>BPKB Motor</h3>
                   <div className='my-10'>
                   <NextImage 
                   useSkeleton
@@ -188,35 +188,63 @@ export default function HomePage() {
             </section>
 
             {/* cara pengajuan section */}
-            <section id='pengajuan' className='border border-1 w-full p-10 my-10'>
+            <section id='pengajuan' className='w-full p-10 my-10'>
               <h2 className='mb-10 text-[#23549a]'>Cara Pengajuan</h2>
               <div className='flex flex-col items-center sm:flex sm:flex-row sm:justify-evenly'>
-                <div className='w-64 m-2 border border-1'>
-                  <div className='bg-black p-4 text-white text-center'>Image</div>
+                <div className='w-64 m-2'>
+                <NextImage 
+                  useSkeleton
+                  className='w-full md:w-full mx-auto flex justify-center'
+                  src='/images/formulir.png'
+                  width='120'
+                  height='120'
+                  alt='Icon'
+                  />
                   <div className='my-6 p-4 h-32 sm:h-48'>
                     <h4>1. Isi Formulir</h4>
                     <p>Isi form dan lengkapi data diri untuk Pengajuan dapat diverifikasi</p>
                   </div>
                 </div>
 
-                <div className='w-64 m-2 border border-1'>
-                  <div className='bg-black p-4 text-white text-center'>Image</div>
+                <div className='w-64 m-2'>
+                <NextImage 
+                  useSkeleton
+                  className='w-full md:w-full mx-auto flex justify-center'
+                  src='/images/verifikasi.png'
+                  width='120'
+                  height='120'
+                  alt='Icon'
+                  />
                   <div className='my-6 p-4 h-32 sm:h-48'>
                     <h4>2. Verifikasi</h4>
                     <p>Setelah data terisi lengkap, Anda akan dihubungi Call Center kami</p>
                   </div>
                 </div>
 
-                <div className='w-64 m-2 border border-1'>
-                  <div className='bg-black p-4 text-white text-center'>Image</div>
+                <div className='w-64 m-2'>
+                <NextImage 
+                  useSkeleton
+                  className='w-full md:w-full mx-auto flex justify-center'
+                  src='/images/peninjauan.png'
+                  width='120'
+                  height='120'
+                  alt='Icon'
+                  />
                   <div className='my-6 p-4 h-32 sm:h-48'>
                   <h4>3. Peninjauan</h4>
                   <p>Tim BPKB Auto akan melakukan Survey peninjauan untuk proses selanjutnya</p>
                   </div>
                 </div>
 
-                <div className='w-64 m-2 border border-1'>
-                  <div className='bg-black p-4 text-white text-center'>Image</div>
+                <div className='w-64 m-2'>
+                <NextImage 
+                  useSkeleton
+                  className='w-full md:w-full mx-auto flex justify-center'
+                  src='/images/persetujuan.png'
+                  width='120'
+                  height='120'
+                  alt='Icon'
+                  />
                   <div className='my-6 p-4 h-32 sm:h-48'>
                     <h4>4. Acc Pengajuan</h4>
                     <p>Pengajuan akan dicairkan ke rekening nasabah terdaftar</p>
@@ -226,14 +254,60 @@ export default function HomePage() {
             </section>
 
             {/* kelengkapan dokumen section */}
-            <section id='kelengkapan_dokumen' className='border border-1 w-full p-10 my-10'>
+            <section id='kelengkapan_dokumen' className='w-full p-10 my-10'>
               <h2 className='mb-10 text-[#23549a]'>Kelengkapan Dokumen</h2>
               <BasicTable/>
             </section>
 
             {/* keuntungan section */}
-            <section id='keuntungan' className='border border-1 w-full p-10 my-10'>
+            <section id='pengajuan' className='w-full p-10 my-10'>
               <h2 className='mb-10 text-[#23549a]'>Keuntungan Mengajukan Solusi BPKB Usaha</h2>
+              <div className='flex flex-col items-center sm:flex sm:flex-row sm:justify-evenly'>
+                <div className='w-64 m-2'>
+                <NextImage 
+                  useSkeleton
+                  className='w-full md:w-full mx-auto flex justify-center'
+                  src='/images/proses_cepat.png'
+                  width='120'
+                  height='120'
+                  alt='Icon'
+                  />
+                  <div className='my-6 p-4 h-32 sm:h-48'>
+                    <h4>Proses 1 Hari</h4>
+                    <p>Permintaan pengajuan akan langsung diproses dalam waktu 1 hari</p>
+                  </div>
+                </div>
+
+                <div className='w-64 m-2'>
+                <NextImage 
+                  useSkeleton
+                  className='w-full md:w-full mx-auto flex justify-center'
+                  src='/images/bunga_rendah.png'
+                  width='120'
+                  height='120'
+                  alt='Icon'
+                  />
+                  <div className='my-6 p-4 h-32 sm:h-48'>
+                  <h4>Bunga Rendah</h4>
+                  <p>Pengajuan BPKB dengan bunga yang rendah</p>
+                  </div>
+                </div>
+
+                <div className='w-64 m-2'>
+                <NextImage 
+                  useSkeleton
+                  className='w-full md:w-full mx-auto flex justify-center'
+                  src='/images/quickreply.png'
+                  width='120'
+                  height='120'
+                  alt='Icon'
+                  />
+                  <div className='my-6 p-4 h-32 sm:h-48'>
+                    <h4>Fast Respond</h4>
+                    <p>Chat Anda akan segera dibalas oleh Admin yang bertugas</p>
+                  </div>
+                </div>
+              </div>
             </section>
 
             <PengajuanForm/>
