@@ -48,8 +48,8 @@ export default function HomePage() {
                     <Table>
                       <TableBody>
                           <TableRow>
-                              <TableCell align="left">Bunga per bulan</TableCell>
-                              <TableCell align="left"><b>0,73%</b></TableCell>
+                              <TableCell align="left">Bunga</TableCell>
+                              <TableCell align="left"><b>Rendah</b></TableCell>
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Minimum pengajuan</TableCell>
@@ -99,8 +99,8 @@ export default function HomePage() {
                     <Table>
                       <TableBody>
                           <TableRow>
-                              <TableCell align="left">Bunga per bulan</TableCell>
-                              <TableCell align="left"><b>0,98%</b></TableCell>
+                              <TableCell align="left">Bunga</TableCell>
+                              <TableCell align="left"><b>Rendah</b></TableCell>
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Minimum pengajuan</TableCell>
@@ -150,8 +150,8 @@ export default function HomePage() {
                     <Table>
                       <TableBody>
                           <TableRow>
-                              <TableCell align="left">Bunga per bulan</TableCell>
-                              <TableCell align="left"><b>1,79%</b></TableCell>
+                              <TableCell align="left">Bunga</TableCell>
+                              <TableCell align="left"><b>Rendah</b></TableCell>
                           </TableRow>
                           <TableRow>
                               <TableCell align="left">Minimum pengajuan</TableCell>

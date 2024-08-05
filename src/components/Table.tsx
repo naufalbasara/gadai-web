@@ -10,34 +10,24 @@ import Paper from '@mui/material/Paper';
 export default function BasicTable() {
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 480 }} >
+      <Table sx={{ minWidth: 120 }} >
         <TableHead>
           <TableRow>
-            <TableCell align='center'>Mobil</TableCell>
-            <TableCell align="center">Motor</TableCell>
-            <TableCell align="left">Dokumen</TableCell>
+            <TableCell align="center" className='text-xl'><b>Dokumen</b></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
             <TableRow>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="left">KTP</TableCell>
+                <TableCell align="center">KTP</TableCell>
             </TableRow>
             <TableRow>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="left">Kartu Keluarga</TableCell>
+                <TableCell align="center">Kartu Keluarga</TableCell>
             </TableRow>
             <TableRow>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="left">STNK</TableCell>
+                <TableCell align="center">STNK</TableCell>
             </TableRow>
             <TableRow>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="center">V</TableCell>
-                <TableCell align="left">BPKB</TableCell>
+                <TableCell align="center">BPKB</TableCell>
             </TableRow>
         </TableBody>
       </Table>
